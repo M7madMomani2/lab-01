@@ -1,0 +1,27 @@
+.container{
+  position: absolute;
+  background-color: white;
+  width: 480px;
+}
+.container p{
+  text-align: center;
+  font-weight: bolder;
+  
+  padding-top: 2vh;
+}
+
+
+
+@media(min-width: 768px){
+
+
+  .container{
+      position: absolute;
+      background-color: white;
+      width: 960px;
+  }
+  .container p{
+      text-align: center;
+      padding-top: 2vh;
+  }
+}
