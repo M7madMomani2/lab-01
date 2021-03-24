@@ -6,3 +6,8 @@ div{
   background-color: rgb(134, 134, 134);
   border: 1px solid ;
 }
+
+body{
+  display: flex;
+  justify-content: space-around;
+}
