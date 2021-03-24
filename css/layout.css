@@ -1,6 +1,9 @@
+
 .container{
   position: absolute;
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
   width: 480px;
 }
 .container p{
@@ -10,18 +13,67 @@
   padding-top: 2vh;
 }
 
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: fit-content;
+  height: fit-content;
+}
 
 
-@media(min-width: 768px){
+/* Tablet vew  */
 
+@media only screen and (min-width: 768px) {
 
   .container{
-      position: absolute;
-      background-color: white;
-      width: 960px;
+    position: absolute;
+    background-color: white;
+    width: 761px;
+    height: fit-content;
   }
+
+  .container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 760px;
+  height: fit-content;
+}
+
   .container p{
       text-align: center;
       padding-top: 2vh;
   }
+}
+
+
+
+
+/* Desktop */
+@media(min-width: 960px){
+  .container{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 962px;
+    height: fit-content;
+}
+
+.container2{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+width: 760px;
+height: fit-content;
+}
+
+.container p{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+
 }

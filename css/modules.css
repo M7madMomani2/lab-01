@@ -7,6 +7,8 @@
 .g{background-color: #005e6d;}
 .h{background-color: #017385;}
 .i{background-color: #394867;}
+
+
 .a{
   width: 478px;
   height: 75px;
@@ -19,76 +21,130 @@
 .c , .d {
   width: 478px;
   height: 125px;
-  display: block;
 }
 .e ,.f {
   width: 239px;
   height: 250px;
-  display: block;
-  float: left;
+
 }
 
 .g ,.h{
   width: 239px;
   height: 250px;
-  display: block;
-  float: left;
+
 
 }
 
 .i{
   width: 478px;
   height:80px;
-  float: left;
+}
+
+/* Tablet vew  */
+
+@media only screen and (min-width: 768px) {
+  .a{background-color: #14274e;}
+  .b{background-color: #113f5a;}
+  .c{background-color: #013941;}
+  .d{background-color: #004a55;}
+  .e{background-color: #410101;}
+  .f{background-color: #5f0000;}
+  .g{background-color: #920000;}
+  .h{background-color: #a70000;}
+  .i{background-color: #00143b;}
+
+
+  .container p{
+    text-align: center;
+    padding-top: 2vh;
+}
+.a{
+    width: 768px;
+    height: 100px;
+}
+
+.b{
+  width: 768px;
+  height: 100px;
+}
+.c ,.d {
+  width: 379px;
+  height: 200px;
+
 }
 
 
+.e ,.f ,.g ,.h {
+    width: 189px;
+    height: 250px;
 
-@media(min-width: 768px){
+}
+
+.h {
+    width: 191px;
+    height: 250px;
+
+}
+
+
+.i{
+  width: 768px;
+  height: 156px;
+}
+
+}
+/* Desktop */
+@media(min-width: 960px){
+  .a{background-color: #002b80;}
+  .b{background-color: #001c53;}
+  .c{background-color: #004369;}
+  .d{background-color: #005586;}
+
+  .e{background-color: #3c024d;}
+  .f{background-color: #590074;}
+  .g{background-color: #700092;}
+  .h{background-color: #8b00b6;}
+  .i{background-color: #001642;}
   .container p{
       text-align: center;
       padding-top: 2vh;
   }
   .a{
-      width: 958px;
+      width: 960px;
       height: 100px;
   }
   
   .b{
       width: 200px;
-      height: 606px;
-      float: left;
+      height: 608px;
   }
   .c ,.d {
       width: 379px;
       height: 200px;
-      float: left;
-      display: inline-block;
+
   }
 
 
   .e ,.f ,.g ,.h {
       width: 189px;
       height: 250px;
-      display: block;
-      float: left;
+
   }
 
   .h {
       width: 191px;
       height: 250px;
-      display: block;
-      float: left;
+
   }
 
   
   .i{
       width: 758px;
       height: 156px;
-      float: right;
   }
 
 }
+
 
 
 
