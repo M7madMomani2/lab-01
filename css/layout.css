@@ -17,8 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: fit-content;
-  height: fit-content;
+  width:480px ;
 }
 
 
@@ -30,7 +29,6 @@
     position: absolute;
     background-color: white;
     width: 761px;
-    height: fit-content;
   }
 
   .container2{
@@ -38,7 +36,6 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 760px;
-  height: fit-content;
 }
 
   .container p{
@@ -59,7 +56,6 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 962px;
-    height: fit-content;
 }
 
 .container2{
@@ -67,7 +63,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
 width: 760px;
-height: fit-content;
 }
 
 .container p{
